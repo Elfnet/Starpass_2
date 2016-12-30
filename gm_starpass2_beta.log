@@ -127,3 +127,132 @@ Level flags = 0
 Total triangle count: 13240
 Writing e:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.bsp
 1 minute, 37 seconds elapsed
+
+
+
+materialPath: E:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.vmf
+Could not locate 'GameData' key in e:\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/gm_starpass2_beta/gm_wolfsight/nature/grass_01_blend5_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38332 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 288 texinfos to 117
+Reduced 10 texdatas to 9 (265 bytes to 229)
+Writing E:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.bsp
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.bsp
+reading e:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.prt
+1657 portalclusters
+3367 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7393 visible clusters (0.46%)
+Total clusters visible: 1611184
+Average clusters visible: 972
+Building PAS...
+Average clusters audible: 1657
+visdatasize:693528  compressed from 689312
+writing e:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.bsp
+6125 faces
+19924686 square feet [2869154816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6125 patches before subdivision
+209131 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 956398, max 2400
+transfer lists:   7.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2166 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                102/8192         1224/98304    ( 1.2%) 
+brushsides             657/65536        5256/524288   ( 1.0%) 
+planes                 808/65536       16160/1310720  ( 1.2%) 
+vertexes              7002/65536       84024/786432   (10.7%) 
+nodes                 4485/65536      143520/2097152  ( 6.8%) 
+texinfos               117/12288        8424/884736   ( 1.0%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6125/65536      343000/3670016  ( 9.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              273/65536       15288/3670016  ( 0.4%) 
+leaves                4539/65536      145248/2097152  ( 6.9%) 
+leaffaces             6217/65536       12434/131072   ( 9.5%) 
+leafbrushes           2757/65536        5514/131072   ( 4.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            25888/512000     103552/2048000  ( 5.1%) 
+edges                13172/256000      52688/1024000  ( 5.1%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              7/32768          70/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           129/65536         258/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7010424/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      693528/16777216 ( 4.1%) 
+entdata               [variable]       60283/393216   (15.3%) 
+LDR ambient table     4539/65536       18156/262144   ( 6.9%) 
+HDR ambient table     4539/65536       18156/262144   ( 6.9%) 
+LDR leaf ambient      1969/65536       55132/1835008  ( 3.0%) 
+HDR leaf ambient      4539/65536      127092/1835008  ( 6.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9170     ( 0.0%) 
+pakfile               [variable]      106220/0        ( 0.0%) 
+physics               [variable]       38332/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12546
+Writing e:\hammer\gm_starpass2\gm_starpass2\gm_starpass2_beta.bsp
+1 minute, 0 seconds elapsed
